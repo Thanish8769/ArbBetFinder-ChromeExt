@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Arbitrage Bet Finder",
+    "version": "1.0",
+    "description": "Find arbitrage betting opportunities.",
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
